@@ -21,3 +21,8 @@ export type Tips = {
   type: TipsTypes
 }
 
+export type Testimonial = {
+  content: string;
+  name: string;
+  imageUrl?: string
+}

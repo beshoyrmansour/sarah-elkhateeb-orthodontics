@@ -26,13 +26,13 @@ const ServiceDetails = ({ params }: Props) => {
     service.slug = selected.slug
   }
 
-  return (<>
-    <div>title: {service?.title}</div>
+  return (<div className=''>
+    {/* <div>title: {service?.title}</div>
     <div>icon: {service?.icon}</div>
     <div>description: {service?.description}</div>
     <div>linkTo: {service?.linkTo}</div>
-    <div>slug: {service?.slug}</div>
-  </>
+    <div>slug: {service?.slug}</div> */}
+  </div>
   )
 }
 

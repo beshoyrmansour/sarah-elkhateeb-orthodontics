@@ -6,7 +6,7 @@ type Props = {}
 const Hero = (props: Props) => {
 
   return (<>
-    <section className=" mt-[8em] hero flex flex-col justify-center items-center w-full" id="intro">
+    <section className=" pt-[8em] hero flex flex-col justify-center items-center w-full" id="Home">
 
       <div
 
@@ -19,9 +19,22 @@ const Hero = (props: Props) => {
             <p className="ml-[42px] text-xl mb-2">
               Orthodontics
             </p>
-            <a href="tel:01004669848" className="ml-[42px] text-md bg-teal-600 text-white font-bold w-auto rounded-[50px] text-center px-3 py-1 mt-2">
-              🤙 01004669848
-            </a>
+            <span className="flex justify-start items-center">
+              <a href="tel:01004669848" className="
+              inline-block align-middle
+              ml-[42px] text-md bg-teal-600 text-white font-bold w-auto rounded-[50px] text-center px-3 py-1 ">
+                🤙 01004669848
+              </a>
+              <a target="_blank" href="https://www.instagram.com/sarahelkhateeb.orthodontics/" className="ml-2 ">
+                <Image src="/instagram_logo.svg" className="img-fluid"
+                  alt="Dr sarah"
+                  width={45}
+                  height={45}
+                  priority
+                />
+              </a>
+
+            </span>
 
           </div>
         </div>

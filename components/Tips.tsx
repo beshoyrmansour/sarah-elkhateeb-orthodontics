@@ -9,11 +9,18 @@ type Props = {}
 const Tips = (props: Props) => {
 
   return (
-    <div id='Tips' className="my-32  bg-white/[.26] rounded-tl-[800em] rounded-br-[800em] rounded-tr-[200em] rounded-bl-[100em]">
-      <h2 className="mb-24 px-5 text-5xl font-bold text-teal-500 ">Tips & Tricks</h2>
+    <div id='Tips' className="mb-32 pt-[10em] bg-white/[.26] rounded-tl-[800em] rounded-br-[800em] rounded-tr-[200em] rounded-bl-[100em]">
+      <h2 className="mb-24  text-4xl font-bold text-teal-500 "><span className="bg-teal-600 text-white font-bold w-auto
+         rounded-bl-[20px]
+          rounded-tr-[90px]
+           rounded-tl-[50px]
+           rounded-br-[150px]
+        text-center px-12 py-3 mt-2">Tips & Tricks</span></h2>
+
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-2 md:grid-cols-2 lg:text-left m-auto justify-center ">
         {TipsList.map((Tip: Tips) => (
-          <Link href={`/Tips/${Tip.slug}`}
+          <div
+            // <Link href={`/Tips/${Tip.slug}`}
             key={Tip.slug}
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-teal-700 hover:bg-teal-50 "
             rel="noopener noreferrer">
@@ -37,11 +44,6 @@ const Tips = (props: Props) => {
                   priority
                 />
               }
-              {/* {Tip.type === TipsTypes.news && <div className=" w-full h-full rounded-lg absolute top-0 text-right p-6 bg-white/25 hover:bg-teal-600/50 font-bold hover:text-white ">
-                <span className=" w-full h-full rounded-lg  text-right p-3 bg-white/25 hover:bg-teal-600/50 font-bold hover:text-white ">News</span>
-              </div>} */}
-
-
             </div>
             <h2 className={`mb-3 text-2xl font-semibold text-teal-600`}>
               {Tip.title}
@@ -50,7 +52,8 @@ const Tips = (props: Props) => {
               </span>
             </h2>
             <p className={`m-0  text-sm opacity-50`}>{Tip.description}</p>
-          </Link>
+            {/* </Link> */}
+          </div>
         ))}
       </div>
     </div>
