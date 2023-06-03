@@ -20,8 +20,7 @@ const Services = (props: Props) => {
       </h2>
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-3 md:grid-cols-2 lg:text-left m-auto justify-center ">
         {servicesList.map((service: Service) => (
-          // <Link href={`/services/${service.slug}`}
-          <div
+          <Link href={`/services/${service.slug}`}
             key={service.slug}
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-teal-700 hover:bg-teal-50 "
 
@@ -41,8 +40,7 @@ const Services = (props: Props) => {
               </span>
             </h2>
             <p className={`m-0  text-sm opacity-50`}>{service.description}</p>
-            {/* </Link> */}
-          </div>
+          </Link>
         ))}
       </div>
     </div>

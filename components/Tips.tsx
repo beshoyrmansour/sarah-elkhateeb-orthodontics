@@ -19,8 +19,7 @@ const Tips = (props: Props) => {
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-2 md:grid-cols-2 lg:text-left m-auto justify-center ">
         {TipsList.map((Tip: Tips) => (
-          <div
-            // <Link href={`/Tips/${Tip.slug}`}
+          <Link href={`/Tips/${Tip.slug}`}
             key={Tip.slug}
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-teal-700 hover:bg-teal-50 "
             rel="noopener noreferrer">
@@ -52,8 +51,7 @@ const Tips = (props: Props) => {
               </span>
             </h2>
             <p className={`m-0  text-sm opacity-50`}>{Tip.description}</p>
-            {/* </Link> */}
-          </div>
+          </Link>
         ))}
       </div>
     </div>
