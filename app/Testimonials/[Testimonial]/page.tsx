@@ -26,13 +26,14 @@ const TestimonialDetails = ({ params }: Props) => {
     service.slug = selected.slug
   }
 
-  return (<>
-    <div>title: {service?.title}</div>
-    <div>icon: {service?.icon}</div>
-    <div>description: {service?.description}</div>
-    <div>linkTo: {service?.linkTo}</div>
-    <div>slug: {service?.slug}</div>
-  </>
+  return (
+    <div className='min-h-[calc(100vh_-_130px)]'>
+      <div>title: {service?.title}</div>
+      <div>icon: {service?.icon}</div>
+      <div>description: {service?.description}</div>
+      <div>linkTo: {service?.linkTo}</div>
+      <div>slug: {service?.slug}</div>
+    </div>
   )
 }
 

@@ -27,13 +27,14 @@ const TipDetails = ({ params }: Props) => {
     Tip.slug = selected.slug
   }
 
-  return (<>
-    <div>title: {Tip?.title}</div>
-    <div>icon: {Tip?.icon}</div>
-    <div>description: {Tip?.description}</div>
-    <div>linkTo: {Tip?.linkTo}</div>
-    <div>slug: {Tip?.slug}</div>
-  </>
+  return (
+    <div className='mt-[8em] min-h-[calc(100vh_-_18.5em)]'>
+      <div>title: {Tip?.title}</div>
+      <div>icon: {Tip?.icon}</div>
+      <div>description: {Tip?.description}</div>
+      <div>linkTo: {Tip?.linkTo}</div>
+      <div>slug: {Tip?.slug}</div>
+    </div>
   )
 }
 

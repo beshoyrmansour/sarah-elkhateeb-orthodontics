@@ -24,7 +24,7 @@ const Footer = (props: Props) => {
         </a>
 
       </span>
-      <div className="mt-2 text-teal-[100]">
+      <div className="mt-2 text-gray-400">
         Copyright © 2023 Dr.Sarah Elkhateeb - All rights reserved <br /> Designed By: <a target='_blank' href='http://digitalizers.co/'>Digitalizers agency</a>
       </div>
     </div>
