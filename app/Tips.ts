@@ -29,7 +29,8 @@ const TipsList: Array<Tips> = [
     icon: "/IMG_5806.jpg",
     description:
       "These are your first choice when you really want to get your teeth straightened with no one even knowing you are doing that. They are simply a series of removable transparent trays that can be taken out to eat and drink and then used again. Much more comfortable than braces and as efficient when chosen for the right case.",
-    type: TipsTypes.video
+    type: TipsTypes.video,
+    externalLink: "https://www.youtube.com/watch?v=jfKfPfyJRdk"
 
   },
   {

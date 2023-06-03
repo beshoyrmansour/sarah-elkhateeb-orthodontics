@@ -18,7 +18,8 @@ export type Tips = {
   icon: string;
   description: string;
   linkTo: string;
-  type: TipsTypes
+  type: TipsTypes;
+  externalLink?: string;
 }
 
 export type Testimonial = {
