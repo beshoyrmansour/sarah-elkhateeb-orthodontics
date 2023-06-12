@@ -12,8 +12,8 @@ type Props = {
 const ActiveLink = ({ href, as, text, base, ...props }: Props) => {
   const pathname = usePathname()
 
-  const activeClasses = 'text-white bg-teal-600 rounded lg:bg-transparent lg:text-teal-500';
-  const inactiveClasses = 'text-gray-900 hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-teal-600';
+  const activeClasses = 'text-teal bg-teal-50 rounded lg:bg-transparent lg:text-teal-200';
+  const inactiveClasses = 'text-teal-100 hover:bg-teal-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-teal-50';
 
   const paths = pathname.split('/')
 

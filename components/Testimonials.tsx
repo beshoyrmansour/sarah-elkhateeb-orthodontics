@@ -28,7 +28,7 @@ const Testimonials = (props: Props) => {
         px-12
         py-3
         mt-2"
-        >Testimonials</span>
+        >Happy patients</span>
       </h2>
 
       <div className="

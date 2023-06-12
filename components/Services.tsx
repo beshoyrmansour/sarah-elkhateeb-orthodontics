@@ -18,7 +18,7 @@ const Services = (props: Props) => {
            rounded-br-[150px]
         text-center px-12 py-3 mt-2">Services</span>
       </h2>
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-3 md:grid-cols-2 lg:text-left m-auto justify-center ">
+      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-2 md:grid-cols-2 lg:text-left m-auto justify-center ">
         {servicesList.map((service: Service) => (
           <Link href={`/services/${service.slug}`}
             key={service.slug}
