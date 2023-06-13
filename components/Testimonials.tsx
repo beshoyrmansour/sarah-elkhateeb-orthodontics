@@ -67,12 +67,12 @@ const Testimonials = (props: Props) => {
 									/>
 								)}
 							</div>
-							<h2 className={`mb-3 `}>"{testimonial.content}"</h2>
+							{/* <h2 className={`mb-3 `}>"{testimonial.content}"</h2>
 							<p
 								className={`m-0  text-xl font-semibold  text-teal-600 `}
 							>
 								{testimonial.name}
-							</p>
+							</p> */}
 						</div>
 					),
 				)}

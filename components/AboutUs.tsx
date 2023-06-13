@@ -18,7 +18,7 @@ const AboutUs = (props: Props) => {
            px-12
         py-3 text-center font-bold text-white"
 				>
-					About Us
+					Our specialist
 				</span>
 			</h2>
 

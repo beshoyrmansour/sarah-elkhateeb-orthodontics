@@ -13,7 +13,7 @@ const Hero = (props: Props) => {
 				<Image
 					src="/bg.svg"
 					alt="background"
-					className="w-100 absolute top-[8em] z-0 max-h-[600px] min-w-[180vw]"
+					className="w-100 absolute top-[8em] z-0 max-h-[600px] min-w-[280vw]"
 					width={3000}
 					height={3000}
 				/>
@@ -30,23 +30,25 @@ const Hero = (props: Props) => {
 
 						<p className="text-center text-5xl font-semibold text-gray-600">
 							<span className="font-thin"> Keep</span>
-							<span className="font-semibold uppercase text-teal-600">
+							<span className="font-semibold uppercase text-teal-500">
 								{' '}
 								smiling
 							</span>
 							<span className="font-thin"> keep</span>
-							<span className="font-semibold uppercase text-teal-600">
+							<span className="font-semibold uppercase text-teal-500">
 								{' '}
 								shining
 							</span>
 						</p>
-						<p className="text-semibold my-3 max-w-[600px] px-8 text-center text-teal-800">
+						<p className=" text-semibold mx-auto my-3 max-w-[600px] px-12 text-center italic text-teal-800">
 							Now you can get the smile of your dreams
-							effortlessly, you can find us anywhere near you /our
-							services are available in so many locations all over
-							cairo giza
+							effortlessly
+							<br />
+							<span className="font-semibold not-italic">
+								book your appointment now
+							</span>
 						</p>
-						<span className="mb-6 flex items-center justify-center text-center">
+						<span className="mb-6 hidden items-center justify-center text-center md:flex">
 							<a
 								href="tel:01004669848"
 								className="
@@ -86,7 +88,50 @@ const Hero = (props: Props) => {
 						</span>
 					</div>
 				</div>
-				<div></div>
+				<div className="align-center fixed bottom-4 right-0 z-20 flex flex-col justify-center rounded-xl bg-white py-2 md:hidden">
+					<a
+						target="_blank"
+						href="https://www.instagram.com/sarahelkhateeb.orthodontics/"
+						className="mx-auto px-1 pb-1"
+					>
+						<Image
+							src="/phone.svg"
+							className="img-fluid"
+							alt="Dr sarah"
+							width={30}
+							height={30}
+							priority
+						/>
+					</a>
+					<a
+						target="_blank"
+						href="https://www.instagram.com/sarahelkhateeb.orthodontics/"
+						className="mx-auto px-1 pb-1"
+					>
+						<Image
+							src="/instagram_logo.svg"
+							className="img-fluid"
+							alt="Dr sarah"
+							width={30}
+							height={30}
+							priority
+						/>
+					</a>
+					<a
+						target="_blank"
+						href="https://www.facebook.com/profile.php?id=100088667986356"
+						className="mx-auto px-1 pb-0"
+					>
+						<Image
+							src="/facebook_logo.svg"
+							className="img-fluid"
+							alt="Dr sarah"
+							width={30}
+							height={30}
+							priority
+						/>
+					</a>
+				</div>
 			</section>
 		</>
 	);

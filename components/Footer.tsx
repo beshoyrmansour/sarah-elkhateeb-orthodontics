@@ -7,10 +7,10 @@ type Props = {};
 const Footer = (props: Props) => {
 	return (
 		<div className="flex flex-col items-center justify-between bg-teal-50 pb-8 pt-8 text-center">
-			<span className="w-100 flex flex-col items-start justify-around gap-16 px-5 md:flex-row">
+			<span className="w-100 flex flex-col items-start justify-around gap-16 px-5 lg:flex-row">
 				<Link
-					href={'/'}
 					className="mb-5 flex flex-col  justify-center self-center"
+					href={'/'}
 				>
 					<Image
 						src="/logo_colors.svg"
@@ -21,28 +21,51 @@ const Footer = (props: Props) => {
 						priority
 					/>
 				</Link>
-				<div className="mb-5 flex flex-col  items-start">
-					<div className="mb-5 flex flex-col  items-start ">
+
+				<div className="self-between mb-5 flex flex-col  items-start gap-3 md:flex-row md:items-center lg:flex-col  lg:items-start">
+					<div className="mb-5 flex flex-col items-start text-center  md:items-center lg:items-start">
 						<p className="my-1 text-lg font-bold text-teal-600">
 							Contacts
 						</p>
-
 						<a
 							href="tel:01004669848"
 							className="text-md
-              my-1 inline-block
-              w-auto rounded-[50px]  text-center align-middle font-semibold text-gray-600"
+							my-1 inline-block flex
+              w-auto items-center
+              justify-center rounded-[50px]  text-center align-middle font-semibold text-gray-600"
 						>
-							01004669848
+							<Image
+								src="/phone.svg"
+								className="img-fluid"
+								alt="Dr.Sarah Elkhateeb instagram page"
+								width={25}
+								height={25}
+								priority
+							/>{' '}
+							<span className="semibold pl-1 "> 01004669848</span>
 						</a>
-						<p className="my-1 font-semibold text-gray-600 ">
-							<a href="mailto:sarah.elkhateeb@hotmail.com">
-								sarah.elkhateeb@hotmail.com
+						<p className="my-1 flex items-center justify-center font-semibold text-gray-600 ">
+							<a
+								href="mailto:sarah.elkhateeb@hotmail.com"
+								className="align-center flex justify-center"
+							>
+								<Image
+									src="/mail.svg"
+									className="img-fluid"
+									alt="Dr.Sarah Elkhateeb instagram page"
+									width={25}
+									height={25}
+									priority
+								/>
+								<span className="semibold pl-1 ">
+									{' '}
+									sarah.elkhateeb@hotmail.com
+								</span>
 							</a>
 						</p>
 					</div>
 
-					<div className="mb-5 flex flex-col  items-start">
+					<div className="mb-5 flex flex-col items-start text-center md:items-center  lg:items-start">
 						<p className="my-1 text-lg font-bold text-teal-600">
 							Social Media
 						</p>
@@ -85,28 +108,29 @@ const Footer = (props: Props) => {
 						</a>
 					</div>
 				</div>
-				<div className="mb-5 flex flex-col  items-start ">
+
+				<div className="justify-cneter mb-5 flex flex-col items-start self-center text-center  md:items-center lg:items-start">
 					<p className="my-1 text-lg font-bold text-teal-600">
 						OPENING HOURS
 					</p>
-					<ul className="flex flex-col items-start  justify-start">
-						<li className="my-1 text-gray-600">
-							<b>Sheikh Zayed</b> - Thurs.: 1pm - 9pm
+					<ul className="flex flex-col items-start justify-start md:items-center lg:items-start">
+						<li className="my-1 text-gray-600 ">
+							<b>Sheikh Zayed</b>: Sats - Thurs.: 1pm - 9pm
 						</li>
-						<li className="my-1 text-gray-600">
-							<b>6th of October</b> - Thurs.: 1pm - 9pm
+						<li className="my-1 text-gray-600 ">
+							<b>6th of October</b>: Sats - Thurs.: 1pm - 9pm
 						</li>
-						<li className="my-1 text-gray-600">
-							<b>Dokki </b> - Thurs.: 1pm - 9pm
+						<li className="my-1 text-gray-600 ">
+							<b>Dokki </b>: Sats - Thurs.: 1pm - 9pm
 						</li>
-						<li className="my-1 text-gray-600">
-							<b>El Haram</b> - Thurs.: 1pm - 9pm
+						<li className="my-1 text-gray-600 ">
+							<b>El Haram</b>: Sats - Thurs.: 1pm - 9pm
 						</li>
-						<li className="my-1 text-gray-600">
-							<b>Maadi</b> - Thurs.: 1pm - 9pm
+						<li className="my-1 text-gray-600 ">
+							<b>Maadi</b>: Sats - Thurs.: 1pm - 9pm
 						</li>
-						<li className="my-1 text-gray-600">
-							<b>Heliopolis</b> - Thurs.: 1pm - 9pm
+						<li className="my-1 text-gray-600 ">
+							<b>Heliopolis</b>: Sats - Thurs.: 1pm - 9pm
 						</li>
 					</ul>
 				</div>

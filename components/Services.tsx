@@ -48,9 +48,9 @@ const Services = (props: Props) => {
 								-&gt;
 							</span>
 						</h2>
-						<p className={`m-0  text-sm opacity-50`}>
+						{/* <p className={`m-0  text-sm opacity-50`}>
 							{service.description}
-						</p>
+						</p> */}
 					</Link>
 				))}
 			</div>
