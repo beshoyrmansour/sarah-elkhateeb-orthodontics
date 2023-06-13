@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-type Props = {}
+type Props = {};
 
 const services = (props: Props) => {
-  return (
-    <div>services</div>
-  )
-}
+	return <div>services</div>;
+};
 
 export default services;

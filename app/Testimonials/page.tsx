@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-type Props = {}
+type Props = {};
 
 const Testimonials = (props: Props) => {
-  return (
-    <div>Testimonials</div>
-  )
-}
+	return <div>Testimonials</div>;
+};
 
 export default Testimonials;

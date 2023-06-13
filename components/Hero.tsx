@@ -1,59 +1,86 @@
-import React from "react"
-import Image from "next/image"
+import React from 'react';
+import Image from 'next/image';
 
-type Props = {}
+type Props = {};
 
 const Hero = (props: Props) => {
+	return (
+		<>
+			<section
+				className="hero relative flex w-full flex-col items-center justify-center pt-[8em]"
+				id="Home"
+			>
+				<Image
+					src="/bg.svg"
+					alt="background"
+					className="w-100 absolute top-[8em] z-0 max-h-[600px] min-w-[180vw]"
+					width={3000}
+					height={3000}
+				/>
+				<div className="z-10 flex min-h-[500px] w-full  flex-col items-center justify-center gap-2 md:flex-row">
+					<div className=" d-flex flex-column justify-content-center align-items-center  col-12">
+						<Image
+							src="/logo_colors.svg"
+							className="mx-auto mb-8 mt-4"
+							alt="Dr sarah"
+							width={300}
+							height={300}
+							priority
+						/>
+						<span className="mb-6 flex items-center justify-center text-center">
+							<a
+								href="tel:01004669848"
+								className="
+              text-md inline-block
+               w-auto rounded-[50px] bg-teal-600 px-3 py-1 text-center align-middle font-bold text-white "
+							>
+								01004669848
+							</a>
+							<a
+								target="_blank"
+								href="https://www.instagram.com/sarahelkhateeb.orthodontics/"
+								className="ml-2 "
+							>
+								<Image
+									src="/instagram_logo.svg"
+									className="img-fluid"
+									alt="Dr sarah"
+									width={45}
+									height={45}
+									priority
+								/>
+							</a>
+							<a
+								target="_blank"
+								href="https://www.facebook.com/profile.php?id=100088667986356"
+								className="ml-2 "
+							>
+								<Image
+									src="/facebook_logo.svg"
+									className="img-fluid"
+									alt="Dr sarah"
+									width={45}
+									height={45}
+									priority
+								/>
+							</a>
+						</span>
+						<p className="text-center text-5xl font-semibold text-gray-600">
+							<b className="text-center text-teal-600 ">
+								SLOGAN WILL BE HERE{' '}
+							</b>
+							SLOGAN WILL BE HERE
+							<span className="font-thin">
+								{' '}
+								SLOGAN WILL BE HERE
+							</span>
+						</p>
+					</div>
+				</div>
+				<div></div>
+			</section>
+		</>
+	);
+};
 
-  return (<>
-    <section className="relative pt-[8em] hero flex flex-col justify-center items-center w-full" id="Home">
-     <Image src='/bg.svg' alt="background" className="absolute top-[8em] min-w-[180vw] max-h-[600px] w-100 z-0"
-        width={3000}
-        height={3000} />
-         <div
-        className="min-h-[500px] flex flex-col md:flex-row  justify-center items-center gap-2 w-full z-10">
-
-        <div className=" d-flex flex-column justify-content-center align-items-center  col-12">
-<Image src="/logo_colors.svg" className="mx-auto mb-8 mt-4"
-                  alt="Dr sarah"
-                  width={150}
-                  height={150}
-                  priority
-                />
-            <span className="flex justify-start items-center">
-              <a href="tel:01004669848" className="
-              inline-block align-middle
-               text-md bg-teal-600 text-white font-bold w-auto rounded-[50px] text-center px-3 py-1 ">
-                01004669848
-              </a>
-              <a target="_blank" href="https://www.instagram.com/sarahelkhateeb.orthodontics/" className="ml-2 ">
-                <Image src="/instagram_logo.svg" className="img-fluid"
-                  alt="Dr sarah"
-                  width={45}
-                  height={45}
-                  priority
-                />
-                </a>
-              <a target="_blank" href="https://www.instagram.com/sarahelkhateeb.orthodontics/" className="ml-2 ">
-                <Image src="/facebook_logo.svg" className="img-fluid"
-                  alt="Dr sarah"
-                  width={45}
-                  height={45}
-                  priority
-                />
-              </a>
-
-            </span>
-
-        </div>
-              
-      </div>
-      <div >
-
-      </div>
-
-    </section>
-  </>)
-}
-
-export default Hero
+export default Hero;

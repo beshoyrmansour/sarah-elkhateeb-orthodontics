@@ -1,9 +1,9 @@
-import React from "react"
+import React from 'react';
 
-type Props = {}
+type Props = {};
 
 const Instagram = (props: Props) => {
-  return <div>Instagram</div>
-}
+	return <div>Instagram</div>;
+};
 
-export default Instagram
+export default Instagram;
