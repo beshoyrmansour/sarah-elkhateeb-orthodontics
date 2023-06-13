@@ -75,7 +75,7 @@ const ServiceDetails = ({ params }: Props) => {
 					Other Services
 				</span>
 			</h2>
-			<div className="mb-16 grid grid-flow-row-dense grid-cols-2 gap-6 rounded-xl bg-white p-6 lg:grid-cols-4">
+			<div className="mb-16 grid grid-flow-row-dense grid-cols-3 gap-6 rounded-xl bg-white p-6 lg:grid-cols-3">
 				{otherServices.map((otherService) => (
 					<>
 						<Link
@@ -84,7 +84,7 @@ const ServiceDetails = ({ params }: Props) => {
 						>
 							<Image
 								src={otherService?.icon}
-								className=" img-fluid mx-auto h-[150px] rounded-xl object-cover"
+								className=" img-fluid mx-auto h-[250px] rounded-xl object-cover"
 								alt="Dr.Sarah Elkhateeb instagram page"
 								width={1000}
 								height={800}

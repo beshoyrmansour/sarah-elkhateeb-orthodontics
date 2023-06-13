@@ -27,6 +27,25 @@ const Hero = (props: Props) => {
 							height={300}
 							priority
 						/>
+
+						<p className="text-center text-5xl font-semibold text-gray-600">
+							<span className="font-thin"> Keep</span>
+							<span className="font-semibold uppercase text-teal-600">
+								{' '}
+								smiling
+							</span>
+							<span className="font-thin"> keep</span>
+							<span className="font-semibold uppercase text-teal-600">
+								{' '}
+								shining
+							</span>
+						</p>
+						<p className="text-semibold my-3 max-w-[600px] px-8 text-center text-teal-800">
+							Now you can get the smile of your dreams
+							effortlessly, you can find us anywhere near you /our
+							services are available in so many locations all over
+							cairo giza
+						</p>
 						<span className="mb-6 flex items-center justify-center text-center">
 							<a
 								href="tel:01004669848"
@@ -65,16 +84,6 @@ const Hero = (props: Props) => {
 								/>
 							</a>
 						</span>
-						<p className="text-center text-5xl font-semibold text-gray-600">
-							<b className="text-center text-teal-600 ">
-								SLOGAN WILL BE HERE{' '}
-							</b>
-							SLOGAN WILL BE HERE
-							<span className="font-thin">
-								{' '}
-								SLOGAN WILL BE HERE
-							</span>
-						</p>
 					</div>
 				</div>
 				<div></div>

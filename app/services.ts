@@ -7,7 +7,7 @@ const servicesList: Array<Service> = [
 		linkTo: 'metal_braces',
 		icon: '/IMG_5798.jpg',
 		description:
-			'Metal braces with wires and colored elastics are the classic form of orthodontic treatment. They are the preferred type of braces for teenagers who want to add some glamour to their teeth while getting the smile they are dreaming of.',
+			'Metal braces are considered the traditional form of braces. They are metal brackets that are fixed to your teeth throughout the treatment duration and connected together with a metal wire and colorful elastics. They are still extremely effective, safe, reliable and millions of people get straight teeth and beautiful smile using metal bracket',
 	},
 
 	{
@@ -16,7 +16,7 @@ const servicesList: Array<Service> = [
 		linkTo: 'ceramic_transparent_braces',
 		icon: '/IMG_5802.jpg',
 		description:
-			'Similar to metal braces in their functionality and ability to move teeth efficiently to their desired positions, ceramic braces have the advantage of being completely transparent. These are the choice for adult patients who feel a bit uncomfortable to walk around with metal braces on.',
+			'Ceramic braces are similar to  the traditional braces. They are made of tooth colored material that blends with your teeth to make them look invisible. Many adults prefer those type which are as effective and functional as the metal ones.',
 	},
 
 	{
@@ -25,7 +25,7 @@ const servicesList: Array<Service> = [
 		linkTo: 'clear_aligners',
 		icon: '/IMG_5806.jpg',
 		description:
-			'These are your first choice when you really want to get your teeth straightened with no one even knowing you are doing that. They are simply a series of removable transparent trays that can be taken out to eat and drink and then used again. Much more comfortable than braces and as efficient when chosen for the right case.',
+			'Although clear aligners don’t look like braces, however they straighten the teeth without using brackets or wires. They are clear, removable and relatively comfortable.',
 	},
 
 	{

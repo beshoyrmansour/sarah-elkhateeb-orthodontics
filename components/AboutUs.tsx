@@ -24,88 +24,43 @@ const AboutUs = (props: Props) => {
 
 			<div className="flex w-full flex-col  items-start justify-between gap-2 md:flex-row">
 				<p className="col-6 flex flex-col px-8">
-					<h2 className="mb-6 text-3xl text-teal-600">
-						<b>Dr. Sarah</b> El Khateeb
-					</h2>
+					<div className="mb-6">
+						<h2 className=" text-3xl text-teal-600">
+							<b>Dr. Sarah</b> El Khateeb
+						</h2>
+						<p className="text-gray-500">Orthodontics</p>
+					</div>
 					<ul>
+						<li className="mb-3 text-gray-500 ">
+							<p>Keep smiling…keep shining</p>
+						</li>
 						<li className="mb-3">
 							<p>
-								Lorem ipsum dolor, sit amet consectetur
-								adipisicing elit. Rem molestiae mollitia
-								quaerat? Velit ut itaque minus molestias odio
-								recusandae, accusamus adipisci reiciendis
-								fugiat, doloremque consectetur, alias saepe
-								nobis cupiditate ratione.
+								.Dr. Sarah is an orthodontic specialist, she
+								graduated from the Faculty of Oral & Dental
+								medicine Cairo university in 2014 with honors.
 							</p>
 						</li>
 						<li className="mb-3">
 							<p>
-								Lorem ipsum dolor, sit amet consectetur
-								adipisicing elit. Rem molestiae mollitia
-								quaerat? Velit ut itaque minus molestias odio
-								recusandae, accusamus adipisci reiciendis
-								fugiat, doloremque consectetur, alias saepe
-								nobis cupiditate ratione.
+								In 2015 she got her diploma from the Royal
+								college of Surgeons in Edinburgh and became a
+								member at the RCSED.
 							</p>
 						</li>
 						<li className="mb-3">
 							<p>
-								Lorem ipsum dolor, sit amet consectetur
-								adipisicing elit. Rem molestiae mollitia
-								quaerat? Velit ut itaque minus molestias odio
-								recusandae, accusamus adipisci reiciendis
-								fugiat, doloremque consectetur, alias saepe
-								nobis cupiditate ratione.
+								A certified orthodontist with a Master's degree
+								in Orthodontics & Dentofacial Orthopedics from
+								Cairo University.
 							</p>
 						</li>
 						<li className="mb-3">
 							<p>
-								Lorem ipsum dolor, sit amet consectetur
-								adipisicing elit. Rem molestiae mollitia
-								quaerat? Velit ut itaque minus molestias odio
-								recusandae, accusamus adipisci reiciendis
-								fugiat, doloremque consectetur, alias saepe
-								nobis cupiditate ratione.
-							</p>
-						</li>
-						<li className="mb-3">
-							<p>
-								Lorem ipsum dolor, sit amet consectetur
-								adipisicing elit. Rem molestiae mollitia
-								quaerat? Velit ut itaque minus molestias odio
-								recusandae, accusamus adipisci reiciendis
-								fugiat, doloremque consectetur, alias saepe
-								nobis cupiditate ratione.
-							</p>
-						</li>
-						<li className="mb-3">
-							<p>
-								Lorem ipsum dolor, sit amet consectetur
-								adipisicing elit. Rem molestiae mollitia
-								quaerat? Velit ut itaque minus molestias odio
-								recusandae, accusamus adipisci reiciendis
-								fugiat, doloremque consectetur, alias saepe
-								nobis cupiditate ratione.
-							</p>
-						</li>
-						<li className="mb-3">
-							<p>
-								Lorem ipsum dolor, sit amet consectetur
-								adipisicing elit. Rem molestiae mollitia
-								quaerat? Velit ut itaque minus molestias odio
-								recusandae, accusamus adipisci reiciendis
-								fugiat, doloremque consectetur, alias saepe
-								nobis cupiditate ratione.
-							</p>
-						</li>
-						<li className="mb-3">
-							<p>
-								Lorem ipsum dolor, sit amet consectetur
-								adipisicing elit. Rem molestiae mollitia
-								quaerat? Velit ut itaque minus molestias odio
-								recusandae, accusamus adipisci reiciendis
-								fugiat, doloremque consectetur, alias saepe
-								nobis cupiditate ratione.
+								A dynamic, detail-oriented & friendly person
+								that manages to capture the hearts of her
+								patients while giving them the beautiful smiles
+								they are wishing for.
 							</p>
 						</li>
 					</ul>

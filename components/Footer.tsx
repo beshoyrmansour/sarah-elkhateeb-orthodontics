@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 type Props = {};
 
@@ -7,66 +8,82 @@ const Footer = (props: Props) => {
 	return (
 		<div className="flex flex-col items-center justify-between bg-teal-50 pb-8 pt-8 text-center">
 			<span className="w-100 flex flex-col items-start justify-around gap-16 px-5 md:flex-row">
+				<Link
+					href={'/'}
+					className="mb-5 flex flex-col  justify-center self-center"
+				>
+					<Image
+						src="/logo_colors.svg"
+						className="img-fluid mx-auto rounded-xl"
+						alt="Dr.Sarah Elkhateeb instagram page"
+						width={200}
+						height={800}
+						priority
+					/>
+				</Link>
 				<div className="mb-5 flex flex-col  items-start">
-					<p className="my-1 text-lg font-bold text-teal-600">
-						Social Media
-					</p>
+					<div className="mb-5 flex flex-col  items-start ">
+						<p className="my-1 text-lg font-bold text-teal-600">
+							Contacts
+						</p>
 
-					<a
-						target="_blank"
-						href="https://www.instagram.com/sarahelkhateeb.orthodontics/"
-						className="my-1 flex items-center justify-center text-lg font-bold text-gray-600"
-					>
-						<Image
-							src="/instagram_logo.svg"
-							className="img-fluid"
-							alt="Dr.Sarah Elkhateeb instagram page"
-							width={25}
-							height={25}
-							priority
-						/>
-						<span className="semibold pl-1 ">
-							{' '}
-							/ sarahelkhateeb.orthodontics{' '}
-						</span>
-					</a>
-					<a
-						target="_blank"
-						href="https://www.facebook.com/profile.php?id=100088667986356"
-						className="my-1 flex items-center justify-center text-lg font-bold text-gray-600"
-					>
-						<Image
-							src="/facebook_logo.svg"
-							className="img-fluid"
-							alt="Dr.Sarah Elkhateeb instagram page"
-							width={25}
-							height={25}
-							priority
-						/>
-						<span className="semibold pl-1 ">
-							{' '}
-							/ sarahelkhateeb.orthodontics{' '}
-						</span>
-					</a>
-				</div>
-				<div className="mb-5 flex flex-col  items-start ">
-					<p className="my-1 text-lg font-bold text-teal-600">
-						Contacts
-					</p>
-
-					<a
-						href="tel:01004669848"
-						className="text-md
+						<a
+							href="tel:01004669848"
+							className="text-md
               my-1 inline-block
               w-auto rounded-[50px]  text-center align-middle font-semibold text-gray-600"
-					>
-						01004669848
-					</a>
-					<p className="my-1 font-semibold text-gray-600 ">
-						<a href="mailto:sarah.elkhateeb@hotmail.com">
-							sarah.elkhateeb@hotmail.com
+						>
+							01004669848
 						</a>
-					</p>
+						<p className="my-1 font-semibold text-gray-600 ">
+							<a href="mailto:sarah.elkhateeb@hotmail.com">
+								sarah.elkhateeb@hotmail.com
+							</a>
+						</p>
+					</div>
+
+					<div className="mb-5 flex flex-col  items-start">
+						<p className="my-1 text-lg font-bold text-teal-600">
+							Social Media
+						</p>
+
+						<a
+							target="_blank"
+							href="https://www.instagram.com/sarahelkhateeb.orthodontics/"
+							className="my-1 flex items-center justify-center text-lg font-bold text-gray-600"
+						>
+							<Image
+								src="/instagram_logo.svg"
+								className="img-fluid"
+								alt="Dr.Sarah Elkhateeb instagram page"
+								width={25}
+								height={25}
+								priority
+							/>
+							<span className="semibold pl-1 ">
+								{' '}
+								/ sarahelkhateeb.orthodontics{' '}
+							</span>
+						</a>
+						<a
+							target="_blank"
+							href="https://www.facebook.com/profile.php?id=100088667986356"
+							className="my-1 flex items-center justify-center text-lg font-bold text-gray-600"
+						>
+							<Image
+								src="/facebook_logo.svg"
+								className="img-fluid"
+								alt="Dr.Sarah Elkhateeb instagram page"
+								width={25}
+								height={25}
+								priority
+							/>
+							<span className="semibold pl-1 ">
+								{' '}
+								/ sarahelkhateeb.orthodontics{' '}
+							</span>
+						</a>
+					</div>
 				</div>
 				<div className="mb-5 flex flex-col  items-start ">
 					<p className="my-1 text-lg font-bold text-teal-600">
