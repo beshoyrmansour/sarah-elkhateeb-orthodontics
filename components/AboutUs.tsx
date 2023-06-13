@@ -22,7 +22,7 @@ const AboutUs = (props: Props) => {
 				</span>
 			</h2>
 
-			<div className="flex w-full flex-col  items-start justify-between gap-2 md:flex-row">
+			<div className="flex w-full flex-col items-center justify-between gap-2 md:flex-row-reverse">
 				<p className="col-6 flex flex-col px-8">
 					<div className="mb-6">
 						<h2 className=" text-3xl text-teal-600">
@@ -31,9 +31,6 @@ const AboutUs = (props: Props) => {
 						<p className="text-gray-500">Orthodontics</p>
 					</div>
 					<ul>
-						<li className="mb-3 text-gray-500 ">
-							<p>Keep smiling…keep shining</p>
-						</li>
 						<li className="mb-3">
 							<p>
 								.Dr. Sarah is an orthodontic specialist, she
@@ -62,6 +59,9 @@ const AboutUs = (props: Props) => {
 								patients while giving them the beautiful smiles
 								they are wishing for.
 							</p>
+						</li>
+						<li className="mb-3 text-gray-500 ">
+							<p>Keep smiling…keep shining</p>
 						</li>
 					</ul>
 				</p>
