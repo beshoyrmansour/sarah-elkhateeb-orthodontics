@@ -115,22 +115,22 @@ const Footer = (props: Props) => {
 					</p>
 					<ul className="flex flex-col items-start justify-start md:items-center lg:items-start">
 						<li className="my-1 text-gray-600 ">
-							<b>Sheikh Zayed</b>: Sats - Thurs.: 1pm - 9pm
+							<b>Sheikh Zayed</b>: Sat - Thurs.: 1pm - 9pm
 						</li>
 						<li className="my-1 text-gray-600 ">
-							<b>6th of October</b>: Sats - Thurs.: 1pm - 9pm
+							<b>6th of October</b>: Sat - Thurs.: 1pm - 9pm
 						</li>
 						<li className="my-1 text-gray-600 ">
-							<b>Dokki </b>: Sats - Thurs.: 1pm - 9pm
+							<b>Dokki </b>: Sat - Thurs.: 1pm - 9pm
 						</li>
 						<li className="my-1 text-gray-600 ">
-							<b>El Haram</b>: Sats - Thurs.: 1pm - 9pm
+							<b>El Haram</b>: Sat - Thurs.: 1pm - 9pm
 						</li>
 						<li className="my-1 text-gray-600 ">
-							<b>Maadi</b>: Sats - Thurs.: 1pm - 9pm
+							<b>Maadi</b>: Sat - Thurs.: 1pm - 9pm
 						</li>
 						<li className="my-1 text-gray-600 ">
-							<b>Heliopolis</b>: Sats - Thurs.: 1pm - 9pm
+							<b>Heliopolis</b>: Sat - Thurs.: 1pm - 9pm
 						</li>
 					</ul>
 				</div>

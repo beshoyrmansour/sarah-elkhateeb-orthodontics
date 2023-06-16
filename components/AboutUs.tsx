@@ -5,10 +5,7 @@ type Props = {};
 
 const AboutUs = (props: Props) => {
 	return (
-		<div
-			id="AboutUs"
-			className="mb-0 rounded-bl-[100em]  rounded-br-[800em] rounded-tl-[800em] rounded-tr-[200em] bg-white/[.26] pt-[10em]"
-		>
+		<div id="AboutUs" className="pt-[10em]">
 			<h2 className="mb-24  text-4xl font-bold text-teal-500 ">
 				<span
 					className="mt-2 w-auto rounded-bl-[20px] rounded-br-[150px]
@@ -22,18 +19,18 @@ const AboutUs = (props: Props) => {
 				</span>
 			</h2>
 
-			<div className="flex w-full flex-col items-center justify-between gap-2 md:flex-row-reverse">
+			<div className="mb-0 flex w-full flex-col items-center justify-between gap-2 rounded-bl-[10em] rounded-br-[700em]  rounded-tl-[800em] rounded-tr-[500em] bg-white/[.26] md:flex-row-reverse">
 				<div className="col-6 flex flex-col px-8">
 					<div className="mb-6">
 						<h2 className=" text-3xl text-teal-600">
-							<b>Dr. Sarah</b> El Khateeb
+							<b>Dr. Sarah El Khateeb</b>
 						</h2>
-						<p className="text-gray-500">Orthodontics</p>
+						{/* <p className="text-gray-500">Orthodontics</p> */}
 					</div>
 					<ul>
 						<li className="mb-3">
 							<p>
-								.Dr. Sarah is an orthodontic specialist, she
+								Dr. Sarah is an orthodontic specialist, she
 								graduated from the Faculty of Oral & Dental
 								medicine Cairo university in 2014 with honors.
 							</p>
