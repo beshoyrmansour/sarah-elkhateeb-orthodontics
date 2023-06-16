@@ -32,7 +32,7 @@ const servicesList: Array<Service> = [
 		title: 'Growth Modification',
 		slug: 'growth_modification',
 		linkTo: 'growth_modification',
-		icon: '/IMG_6145.jpg',
+		icon: '/groth.png',
 		description:
 			'The aim of growth modification is to guide the jaws to grow in the normal direction and at the proper pace. Problems such as narrow jaws or jaws that are sticking out are best managed at a young age. This early treatment is the foundation for healthy jaws with enough space to accommodate all permanent teeth in a proper fit giving your child a nice healthy smile.',
 	},
