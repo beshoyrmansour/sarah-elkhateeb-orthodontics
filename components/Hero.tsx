@@ -28,7 +28,7 @@ const Hero = (props: Props) => {
 							priority
 						/>
 
-						<p className="text-center text-5xl font-semibold text-gray-600">
+						<div className="text-center text-5xl font-semibold text-gray-600">
 							<span className="font-thin"> Keep</span>
 							<span className="font-semibold uppercase text-teal-500">
 								{' '}
@@ -39,15 +39,15 @@ const Hero = (props: Props) => {
 								{' '}
 								shining
 							</span>
-						</p>
-						<p className=" text-semibold mx-auto my-3 max-w-[600px] px-12 text-center italic text-teal-800">
+						</div>
+						<div className=" text-semibold mx-auto my-3 max-w-[600px] px-12 text-center italic text-teal-800">
 							Now you can get the smile of your dreams
 							effortlessly
 							<br />
 							<span className="font-semibold not-italic">
 								book your appointment now
 							</span>
-						</p>
+						</div>
 						<span className="mb-6 hidden items-center justify-center text-center md:flex">
 							<a
 								href="tel:01004669848"

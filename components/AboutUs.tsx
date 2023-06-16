@@ -23,7 +23,7 @@ const AboutUs = (props: Props) => {
 			</h2>
 
 			<div className="flex w-full flex-col items-center justify-between gap-2 md:flex-row-reverse">
-				<p className="col-6 flex flex-col px-8">
+				<div className="col-6 flex flex-col px-8">
 					<div className="mb-6">
 						<h2 className=" text-3xl text-teal-600">
 							<b>Dr. Sarah</b> El Khateeb
@@ -64,7 +64,7 @@ const AboutUs = (props: Props) => {
 							<p>Keep smiling…keep shining</p>
 						</li>
 					</ul>
-				</p>
+				</div>
 				<Image
 					className="col-6 self-end"
 					src={'/drsarah.png'}

@@ -44,7 +44,7 @@ const Footer = (props: Props) => {
 							/>{' '}
 							<span className="semibold pl-1 "> 01004669848</span>
 						</a>
-						<p className="my-1 flex items-center justify-center font-semibold text-gray-600 ">
+						<div className="my-1 flex items-center justify-center font-semibold text-gray-600 ">
 							<a
 								href="mailto:sarah.elkhateeb@hotmail.com"
 								className="align-center flex justify-center"
@@ -62,7 +62,7 @@ const Footer = (props: Props) => {
 									sarah.elkhateeb@hotmail.com
 								</span>
 							</a>
-						</p>
+						</div>
 					</div>
 
 					<div className="mb-5 flex flex-col items-start text-center md:items-center  lg:items-start">
