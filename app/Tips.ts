@@ -5,7 +5,7 @@ const TipsList: Array<Tips> = [
 		title: 'How to brush with braces',
 		slug: 'how_to_brush_with_braces',
 		linkTo: 'how_to_brush_with_braces',
-		icon: '/IMG_5799.jpg',
+		icon: '/File_000.png',
 		description:
 			'Similar to metal braces in their functionality and ability to move teeth efficiently to their desired positions, ceramic braces have the advantage of being completely transparent. These are the choice for adult patients who feel a bit uncomfortable to walk around with metal braces on.',
 		type: TipsTypes.video,
@@ -16,7 +16,7 @@ const TipsList: Array<Tips> = [
 		title: 'How to use dental wax on braces',
 		slug: 'how_to_use_dental_wax_on_braces',
 		linkTo: 'how_to_use_dental_wax_on_braces',
-		icon: '/IMG_5804.jpg',
+		icon: '/File_001.png',
 		description:
 			'The aim of growth modification is to guide the jaws to grow in the normal direction and at the proper pace. Problems such as narrow jaws or jaws that are sticking out are best managed at a young age. This early treatment is the foundation for healthy jaws with enough space to accommodate all permanent teeth in a proper fit giving your child a nice healthy smile.',
 		type: TipsTypes.video,

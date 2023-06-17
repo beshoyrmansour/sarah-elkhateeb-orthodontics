@@ -45,7 +45,7 @@ const Hero = (props: Props) => {
 							effortlessly
 							<br />
 							<span className="font-semibold not-italic">
-								book your appointment now
+								Book your appointment now
 							</span>
 						</div>
 						<span className="mb-6 hidden items-center justify-center text-center md:flex">
@@ -91,7 +91,7 @@ const Hero = (props: Props) => {
 				<div className="align-center fixed bottom-4 right-0 z-20 flex flex-col justify-center rounded-xl bg-white py-2 md:hidden">
 					<a
 						target="_blank"
-						href="https://www.instagram.com/sarahelkhateeb.orthodontics/"
+						href="tel:01004669848"
 						className="mx-auto px-1 pb-1"
 					>
 						<Image
