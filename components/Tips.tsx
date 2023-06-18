@@ -61,9 +61,9 @@ const Tips = (props: Props) => {
 								-&gt;
 							</span>
 						</h2>
-						<p className={`m-0  text-sm opacity-50`}>
+						{/* <p className={`m-0  text-sm opacity-50`}>
 							{Tip.description}
-						</p>
+						</p> */}
 					</Link>
 				))}
 			</div>

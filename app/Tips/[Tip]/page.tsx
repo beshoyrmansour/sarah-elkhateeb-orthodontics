@@ -64,17 +64,23 @@ const TipDetails = ({ params }: Props) => {
 					<div className="w-full">
 						<h1 className="mb-3 flex w-full items-center justify-between text-4xl text-teal-600">
 							<span> {Tip?.title} </span>
-							<span className="fornt-black ml-auto  rounded-full bg-teal-600 px-2 py-1 text-base uppercase text-white">
+							{/* <span className="fornt-black ml-auto  rounded-full bg-teal-600 px-2 py-1 text-base uppercase text-white">
 								{Tip.type}
-							</span>
+							</span> */}
 						</h1>
 						<p className="mb-8 text-xl text-teal-900 lg:mb-16">
 							{Tip?.description}
 						</p>
 					</div>
-					{/* <a href='tel:01004669848' className="bg-teal-600 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded">
-            Book Now 🤙
-          </a> */}
+					{Tip.externalLink && (
+						<a
+							href={Tip.externalLink}
+							target="_blank"
+							className="rounded bg-teal-600 px-4 py-2 font-bold text-white hover:bg-teal-800"
+						>
+							Watch video
+						</a>
+					)}
 				</div>
 			</div>
 			{/* otherTips */}
@@ -90,7 +96,12 @@ const TipDetails = ({ params }: Props) => {
 					Other Tips
 				</span>
 			</h2>
-			<div className="mb-16 grid grid-flow-row-dense grid-cols-2 gap-6 rounded-xl bg-white p-6 lg:grid-cols-4">
+			<div
+				className="mb-16 grid grid-flow-row-dense grid-cols-2 justify-around gap-6 rounded-xl bg-white p-6 lg:grid-cols-4"
+				style={{
+					placeItems: 'center',
+				}}
+			>
 				{otherTips.map((otherTip) => (
 					<>
 						<Link

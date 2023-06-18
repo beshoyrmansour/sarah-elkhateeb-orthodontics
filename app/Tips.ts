@@ -6,8 +6,7 @@ const TipsList: Array<Tips> = [
 		slug: 'how_to_brush_with_braces',
 		linkTo: 'how_to_brush_with_braces',
 		icon: '/File_000.png',
-		description:
-			'Similar to metal braces in their functionality and ability to move teeth efficiently to their desired positions, ceramic braces have the advantage of being completely transparent. These are the choice for adult patients who feel a bit uncomfortable to walk around with metal braces on.',
+		description: 'What you need to brush your teeth with braces?',
 		type: TipsTypes.video,
 		externalLink: 'https://www.youtube.com/watch?v=iWzccidNPVQ',
 	},
@@ -16,39 +15,22 @@ const TipsList: Array<Tips> = [
 		title: 'How to use dental wax on braces',
 		slug: 'how_to_use_dental_wax_on_braces',
 		linkTo: 'how_to_use_dental_wax_on_braces',
-		icon: '/File_001.png',
-		description:
-			'The aim of growth modification is to guide the jaws to grow in the normal direction and at the proper pace. Problems such as narrow jaws or jaws that are sticking out are best managed at a young age. This early treatment is the foundation for healthy jaws with enough space to accommodate all permanent teeth in a proper fit giving your child a nice healthy smile.',
+		icon: '/how_to_use_dental_wax_on_braces.png',
+		description: `What you need to apply dental wax to braces?`,
+
 		type: TipsTypes.video,
 		externalLink: 'https://youtu.be/vAtqhlYSJFs',
 	},
-	// {
-	// 	title: 'Clear Aligners',
-	// 	slug: 'clear_aligners',
-	// 	linkTo: 'clear_aligners',
-	// 	icon: '/IMG_5806.jpg',
-	// 	description:
-	// 		'These are your first choice when you really want to get your teeth straightened with no one even knowing you are doing that. They are simply a series of removable transparent trays that can be taken out to eat and drink and then used again. Much more comfortable than braces and as efficient when chosen for the right case.',
-	// 	type: TipsTypes.article,
-	// },
-	// {
-	// 	title: 'Metal Braces',
-	// 	slug: 'metal_braces',
-	// 	linkTo: 'metal_braces',
-	// 	icon: '/IMG_5798.jpg',
-	// 	description:
-	// 		'Metal braces with wires and colored elastics are the classic form of orthodontic treatment. They are the preferred type of braces for teenagers who want to add some glamour to their teeth while getting the smile they are dreaming of.',
-	// 	type: TipsTypes.article,
-	// },
-	// {
-	// 	title: 'Lingual Braces',
-	// 	slug: 'lingual_braces',
-	// 	linkTo: 'lingual_braces',
-	// 	icon: '/IMG_5802.jpg',
-	// 	description:
-	// 		'Lingual braces are specially customized to fit the inner surface of your teeth. They are suitable for all cases, and are ideal for actors/actresses and public speakers.',
-	// 	type: TipsTypes.article,
-	// },
+	{
+		title: 'What to eat with braces',
+		slug: 'what_to_eat_with_braces',
+		linkTo: 'what_to_eat_with_braces',
+		icon: '/File_002.png',
+		description:
+			'When you have braces, it’s important to eat soft, cold, or cooked foods that do not require much chewing or biting. Some examples are dairy products, soups, smoothies, eggs, oatmeal, pasta, rice, bread, vegetables, seafood, and fruits. You should avoid hard, crunchy, sticky, or chewy foods that can damage your braces or cause pain. You should also limit your sugar intake and brush your teeth after eating.',
+		type: TipsTypes.video,
+		externalLink: 'https://youtu.be/vAtqhlYSJFs',
+	},
 ];
 
 export default TipsList;
