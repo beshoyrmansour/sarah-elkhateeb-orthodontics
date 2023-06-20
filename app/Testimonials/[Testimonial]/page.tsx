@@ -9,7 +9,6 @@ type Props = {
 };
 
 const TestimonialDetails = ({ params }: Props) => {
-	console.log({ params });
 	const service: Service = {
 		title: '',
 		icon: '',

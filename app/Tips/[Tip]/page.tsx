@@ -11,7 +11,6 @@ type Props = {
 };
 
 const TipDetails = ({ params }: Props) => {
-	console.log({ params });
 	const Tip: Tips = {
 		title: '',
 		icon: '',

@@ -6,7 +6,8 @@ const TipsList: Array<Tips> = [
 		slug: 'how_to_brush_with_braces',
 		linkTo: 'how_to_brush_with_braces',
 		icon: '/File_000.png',
-		description: 'What you need to brush your teeth with braces?',
+		description:
+			'Brushing is very crucial while having braces to avoid plaque and decay. You should brush after every meal and snack for at least 3 minutes either using a manual or electric tooth brush.',
 		type: TipsTypes.video,
 		externalLink: 'https://www.youtube.com/watch?v=iWzccidNPVQ',
 	},
@@ -16,7 +17,7 @@ const TipsList: Array<Tips> = [
 		slug: 'how_to_use_dental_wax_on_braces',
 		linkTo: 'how_to_use_dental_wax_on_braces',
 		icon: '/how_to_use_dental_wax_on_braces.png',
-		description: `What you need to apply dental wax to braces?`,
+		description: `Using the wax is very helpful if there is any sharp edge or loose bracket poking hurting your cheeks or lips.`,
 
 		type: TipsTypes.video,
 		externalLink: 'https://youtu.be/vAtqhlYSJFs',
@@ -27,7 +28,7 @@ const TipsList: Array<Tips> = [
 		linkTo: 'what_to_eat_with_braces',
 		icon: '/File_002.png',
 		description:
-			'When you have braces, it’s important to eat soft, cold, or cooked foods that do not require much chewing or biting. Some examples are dairy products, soups, smoothies, eggs, oatmeal, pasta, rice, bread, vegetables, seafood, and fruits. You should avoid hard, crunchy, sticky, or chewy foods that can damage your braces or cause pain. You should also limit your sugar intake and brush your teeth after eating.',
+			'There are certain foods should be avoided while having braces like sticky food or very hard food. You can enjoy eating soft food specially after braces tightening.',
 		type: TipsTypes.video,
 		externalLink: 'https://youtu.be/vAtqhlYSJFs',
 	},

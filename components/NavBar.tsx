@@ -79,7 +79,7 @@ const NavBar = () => {
 								<ActiveLink
 									base="Tips"
 									href="#Tips"
-									text="Tips & Tricks"
+									text="Life with braces"
 								/>
 								{/* <Link href="#Tips" className={`${isCurrent ? activeClasses : inactiveClasses}  block py-2 pl-3 pr-4 rounded lg:p-0 `}>Tips & Tricks</Link> */}
 							</li>

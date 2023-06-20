@@ -21,7 +21,7 @@ const Tips = (props: Props) => {
            px-12
         py-3 text-center font-bold text-white"
 				>
-					Tips & Tricks
+					Life with braces
 				</span>
 			</h2>
 
